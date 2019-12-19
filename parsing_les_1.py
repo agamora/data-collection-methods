@@ -14,6 +14,4 @@ if response.ok:
     repos = []
     for i in data:
         repos.append(i['name'])
-        # pprint(data)
-        # print(type(data))
     print(repos)
